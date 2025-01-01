@@ -18,8 +18,8 @@ const searchWeather = async (val) => {
 
   cityName.innerHTML = data.name;
   temperature.innerHTML = `${data.main.temp}°`;
-  wind.innerHTML = `Wind: ${data.wind.speed} km/h`;
-  humidity.innerHTML = `Humidity: ${data.main.humidity}% `;
+  wind.innerHTML = `Wind : ${data.wind.speed} km/h`;
+  humidity.innerHTML = `Humidity : ${data.main.humidity}% `;
   description.innerHTML = `${data.weather[0].description}`;
 };
 
